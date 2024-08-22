@@ -1,7 +1,7 @@
 // main.tf
 module "vm_compute_instance_wrapper" {
   source  = "terraform-google-modules/vm/google//modules/compute_instance"
-  version = "11.1.0"
+  version = "11.2.0"
 
   // Define the required variable(s)
   name = var.name
